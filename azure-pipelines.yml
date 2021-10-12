@@ -35,7 +35,7 @@ stages:
   - job: Provision
     displayName: 'Provisioning Container Instance'
     pool: 
-      vmImage: 'ubumtu-latest'
+      vmImage: 'ubuntu-latest'
     variables : 
     - group: TeraformEnvVars
     steps:
