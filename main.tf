@@ -44,7 +44,7 @@ resource "azurerm_container_group" "tcfg_test" {
 
   container {
       name            = "weatherapi"
-      image           = "rostdocker/weatherapi: ${var.imagebuild}"
+      image           = "rostdocker/weatherapi:${var.imagebuild}"
         cpu             = "1"
         memory          = "1"
 
